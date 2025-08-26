@@ -6,7 +6,7 @@ import numpy as np
 st.set_page_config(page_title="Portfolio Risk Dashboard", layout="wide")
 st.title("Portfolio Risk Assessment Dashboard")
 
-API_URL = "http://localhost:8000"
+API_URL = "http://api:8000"
 
 def get_data(key=None):
     st.write("### Upload CSV or Enter Data Manually")
