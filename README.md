@@ -1,4 +1,4 @@
-# Multi-Asset Portfolio Risk Assessment System with Dynamic Hedging
+# Historical Portfolio Risk Assessment Tool
 
 ## What is this project?
 This is a production-ready, end-to-end platform for advanced portfolio risk assessment and dynamic hedging recommendations. It combines modern machine learning, quantitative finance, and robust software engineering to help investors, risk managers, and researchers:
@@ -97,7 +97,7 @@ The system uses advanced models and metrics (e.g., Sharpe ratio, Sortino ratio, 
 ---
 
 ## Overview
-A production-ready machine learning system for advanced portfolio risk assessment and dynamic hedging recommendations, leveraging state-of-the-art quantitative finance and ML techniques.
+A machine learning system for advanced portfolio risk assessment and dynamic hedging recommendations, leveraging state-of-the-art quantitative finance and ML techniques.
 
 ## Features
 - Multi-source data ingestion (Yahoo Finance, FRED, VIX, sentiment APIs)
@@ -168,11 +168,6 @@ See [docker/README-docker.md](docker/README-docker.md) for full instructions.
 ## Dashboard
 - Upload CSV or enter data manually for risk assessment and backtesting
 - Visualize portfolio metrics and risk scores
-
-![Dashboard Screenshot](notebooks/dashboard_screenshot.png) <!-- Replace with actual screenshot -->
-
-## Notebooks
-- See [notebooks/](notebooks/) for demos, model performance, and financial methodology
 
 ## Testing
 - Run all tests:
